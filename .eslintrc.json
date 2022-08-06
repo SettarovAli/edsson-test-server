@@ -1,7 +1,6 @@
 {
   "env": {
     "node": true,
-    "commonjs": true,
     "es2021": true
   },
   "extends": [
@@ -15,5 +14,6 @@
     "ecmaVersion": "latest"
   },
   "plugins": ["@typescript-eslint"],
+  "ignorePatterns": ["**/dist"],
   "rules": { "comma-dangle": "off" }
 }
